@@ -5,13 +5,6 @@
 </head>
 <body>
 
-<?php
-
-phpinfo();
-phpinfo(INFO_MODULES);
-
-?>
-  
 <?php 
 $data1 = $_GET["Name"];
 $data2 = $_GET["Love"];
@@ -24,6 +17,13 @@ echo "歡迎你，喜歡的學科是 ";
 echo $data2;
 ?>。
 
+
+<?php
+
+phpinfo(INFO_MODULES);
+
+?>
+  
 </body>
 </html>
 
